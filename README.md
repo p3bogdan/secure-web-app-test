@@ -1,9 +1,10 @@
-# secure-web-app-test
+#secure-web-app-test
+
+##NCI 2024 Bogdan Munteanu x21126097@student.ncirl.ie
+
 Installation Instructions:
-# NCI 2024 Bogdan Munteanu x21126097@student.ncirl.ie
-# Below is an example of a simple Flask web application in Python with SQLite3 as the database.
-# The purpose is to demonstrate insecure coding practices.
-# Why Python and Flask? Because is fast! 
+
+
 
 
 
