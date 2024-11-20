@@ -62,3 +62,20 @@ This query can be used to check if the database allows **UNION SELECT** statem
 It will display login succefuly :) 
 
 
+
+## HOW TO EXPLOIT XSS?
+
+- Go to `http://127.0.0.1:5000/comment_insecure`.
+- In the "Comment" field, enter the following JavaScript payload:
+    
+    html
+    
+    Copy code
+    
+    `<script>alert('XSS Attack');</script>`
+    
+- Click "Submit".
+
+**Expected Outcome**: You should see an alert message pop up with `'XSS Attack'`. This happens because the input is directly reflected back into the response, leading to JavaScript execution in the user's browser.
+
+
