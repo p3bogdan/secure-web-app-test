@@ -7,7 +7,7 @@ Installation Instructions:
 
 
 
-
+adduser.py -- will  add a user to the database 
 
 ## Installation
 1. Clone the repository:
