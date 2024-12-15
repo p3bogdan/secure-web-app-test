@@ -20,6 +20,11 @@ pip install Flask
 
 Running the Application:
 
+git checkout secure
+or 
+git checkout insecure
+
+
 python3 app-secure.py
 
 or 
