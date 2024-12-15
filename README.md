@@ -17,6 +17,10 @@ python3 app-secure.py
 
 Instructions for starting the server:
 
+git checkout secure
+or 
+git checkout insecure
+
 Running the Application
 
 To start the Flask server, run:
